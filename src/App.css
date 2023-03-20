@@ -20,6 +20,7 @@
   display: block;
   margin-top: 5em;
   margin-bottom: 3em;
+  padding-left: 1.5em;
 }
 .input-image-text {
   text-align: justify;
@@ -33,7 +34,9 @@
   height: 10vh;
   background: black;
   color: aliceblue;
+  font-size: xx-large;
   font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
 }
 
 @media (min-width: 1300px) {
@@ -45,6 +48,11 @@
 
   .file-image {
     display: none;
+  }
+
+  .label-image {
+    display: block;
+    margin-top: 0;
   }
 
   .input-image {
@@ -61,8 +69,8 @@
   }
 
   .button-upload {
-    margin-left: 16em;
-    width: 20em;
+    width: 7em;
+    margin-left: 7em;
     height: 10vh;
     border-radius: 20px;
   }
